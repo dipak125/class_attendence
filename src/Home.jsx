@@ -1,56 +1,64 @@
-import React from "react";
+import React,{useState} from 'react'
+import DatePicker from  'react-datepicker'
+import  './App.css';
+import 'react-datepicker/dist/react-datepicker.css'
 
-
-const Home=(props)=>{
-  const{students,present}=props;
-  const s=[];
-  let j=0;
-  for(let i=0;i<students.length;i++)
-  {
-    for( j=0;j<present.length;j++)
-    {
-        if(present[j]==students[i])
-          break;
-    }
-    if(j==present.length)
-        s.push(students[i])
-  }
-    return(
-     
-           <div>
-             <div class="left">
-                  <div>
-                      <div class="top">
-                          <u><h1>Obout course:</h1></u>
-                            <h3>Include every Bootstrap JavaScript plugin and dependency with one of our two bundles. Both bootstrap.bundle.js and bootstrap.bundle.min.js include Popper for 
-                              our tooltips and popovers. For more information about what’s included in Bootstrap, please see our contents section.</h3>
-                      </div>
-                      <div class="bottom">
-                          <u><h1>Obout topic:</h1></u>
-                          <h3>Read and subscribe to The Official Bootstrap Blog.
-                              Join the official Slack room.
-                              Chat with fellow Bootstrappers in IRC. On the irc.freenode.net server, in the ##bootstrap channel.
-                              Implementation help may be found at Stack Overflow (tagged bootstrap-5).
-                              Developers should use the keyword bootstrap on packages that modify or add to the 
-                              functionality of Bootstrap when distributing through npm or similar delivery mechanisms for maximum discoverability.</h3>
-                      </div>
-                  </div>
-             </div>
-             <div class="right">
-                  <u><h2>list of the absent stuent</h2></u>
-                  {s.map(s1=>
-                     <table>
-                          <tr>
-                             <td>{s1.roll}.</td>
-                             <td>{s1.name}</td>
-                          </tr>
-                         
-                     </table>
-                    )}
-                 
-             </div>
-           </div>
-        
-    )
+function Home(){
+  const [selectedDate, setSelectedDate] = useState(null)
+  return (
+    <div className="App">
+      <h1>Today'Date</h1>
+      <DatePicker 
+      placeholder="Enter date"
+      selected={selectedDate}
+       onChange={date => setSelectedDate(date)}
+       dateFormat='dd/MM/yyyy'
+       isClearable />
+       <div>
+       <table className="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Roll</th>
+      <th scope="col">Name</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Anand</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+       <td>Sourav</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Pritam</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Rohit</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+       <td>Virat</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Bhuvi</td>
+      
+      
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+    
+  )
 }
 export default Home;
