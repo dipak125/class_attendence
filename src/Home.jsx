@@ -1,20 +1,10 @@
 import React from "react";
 
 
-const Home=(props)=>{
-  const{students,present}=props;
-  const s=[];
-  let j=0;
-  for(let i=0;i<students.length;i++)
-  {
-    for( j=0;j<present.length;j++)
-    {
-        if(present[j]==students[i])
-          break;
-    }
-    if(j==present.length)
-        s.push(students[i])
-  }
+const Home=()=>{
+
+ 
+  
     return(
      
            <div>
@@ -30,26 +20,84 @@ const Home=(props)=>{
                           <h3>Read and subscribe to The Official Bootstrap Blog.
                               Join the official Slack room.
                               Chat with fellow Bootstrappers in IRC. On the irc.freenode.net server, in the ##bootstrap channel.
-                              Implementation help may be found at Stack Overflow (tagged bootstrap-5).
-                              Developers should use the keyword bootstrap on packages that modify or add to the 
-                              functionality of Bootstrap when distributing through npm or similar delivery mechanisms for maximum discoverability.</h3>
+                              On the irc.freenode.net server, in the ##bootstrap channel
+                               delivery mechanisms for maximum discoverability.</h3>
                       </div>
                   </div>
              </div>
              <div class="right">
-                  <u><h2>list of the absent stuent</h2></u>
-                  {s.map(s1=>
-                     <table>
-                          <tr>
-                             <td>{s1.roll}.</td>
-                             <td>{s1.name}</td>
-                          </tr>
-                         
-                     </table>
-                    )}
+                  <u><h2>Today's Data </h2></u>
+                  
+                  <table class="table caption-top">
+                    
+                         <thead>
+                             <tr>
+                                 <th scope="col">Roll</th>
+                                 <th scope="col">Name</th>
+      
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>rajive</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Raz</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>dipak</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>dipankar</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td>Sahil</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td>Mrinal</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td>koushik</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td>koushik</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td>koushik</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">11</th>
+                                <td>tapash</td>
+                              
+                              </tr>
+                            </tbody>
+                    </table>
+                  
                  
              </div>
-           </div>
+             <div class="foot">  
+                  <h2>about&nbsp;&nbsp;&nbsp;address   &nbsp;&nbsp;&nbsp;contect</h2>
+             </div>
+             
+     </div>
         
     )
 }
