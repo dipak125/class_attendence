@@ -1,9 +1,12 @@
-import React from "react";
+import React,{useState} from 'react'
+import DatePicker from  'react-datepicker'
+import  './App.css';
+import 'react-datepicker/dist/react-datepicker.css'
 
 
 const Home=()=>{
 
- 
+  const [selectedDate, setSelectedDate] = useState(null)
   
     return(
      
@@ -26,7 +29,15 @@ const Home=()=>{
                   </div>
              </div>
              <div class="right">
-                  <u><h2>Today's Data </h2></u>
+             <u><h2>list of the absent stuent</h2></u>
+                  <div>
+                  <DatePicker 
+      placeholder="Enter date"
+      selected={selectedDate}
+       onChange={date => setSelectedDate(date)}
+       dateFormat='dd/MM/yyyy'
+       isClearable />
+                  </div>
                   
                   <table class="table caption-top">
                     
