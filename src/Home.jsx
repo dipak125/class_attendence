@@ -3,7 +3,7 @@ import DatePicker from  'react-datepicker'
 import  './App.css';
 import 'react-datepicker/dist/react-datepicker.css'
 
-function Home(){
+function Side(){
   const [selectedDate, setSelectedDate] = useState(null)
   return (
     <div className="App">
@@ -67,4 +67,4 @@ function Home(){
     
   )
 }
-export default Home;
+export default Side;
