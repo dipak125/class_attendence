@@ -36,38 +36,114 @@
     transform: rotate(360deg);
   }
 }
+
 button{
   background-color:blue
 }
+
 .left{
   width:65%;
-  height:100%;
+  height:80%;
+ 
   float:left;
  
 }
 .right{
   width:30%;
-  height:100%;
+  height:80%;
   float:right;
  
 }
+
 .top{
   width:100%;
   height:50%;
   float:top;
+  margin-top:3%;
+  margin-left:5%;
+  color:white;
+<<<<<<< HEAD
+  background-color:rgb(18, 160, 196);
+=======
+  background-color:rgb(67,127,199);
+>>>>>>> master
 }
+
 .bottom{
   width:100%;
   height:50%;
   float:top;
+  margin-left:5%;
+  margin-top:3%;
+<<<<<<< HEAD
+  background-color:rgb(18, 160, 196);
+  color:white;
+=======
+  background-color:rgb(67,127,199);
+  color:white;
   
+>>>>>>> master
 }
+
 .center{
   width:15%;
   height: 20%;
   margin-left:35%;
 }
+
 .img{
   width:250px;
   height:250px;
+}
+
+.foot{
+  width:100%;
+  float:left;
+  margin-top:2%;
+  
+  color:white;
+  background-color:rgb(34, 29, 29);
+  text-align: center;
+}
+
+<<<<<<< HEAD
+.logo{
+=======
+.yodafy{
+>>>>>>> master
+  width:50px;
+  border-radius: 25px;
+}
+
+<<<<<<< HEAD
+.navbar-brand{
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  font-size:25px;
+}
+
+.nav-item{
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  font-size:20px;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+=======
+.nav-item{
+  font-size:20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand{
+  color:white;
+  font-size:25px;
+  font-family:'Times New Roman', Times, serif;
+>>>>>>> master
 }
