@@ -54,6 +54,12 @@ function Home(){
       
       
     </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Bhuviu</td>
+      
+      
+    </tr>
   </tbody>
 </table>
       </div>
