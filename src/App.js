@@ -16,7 +16,7 @@ const App=()=>{
     students:[
       {
         roll:1,
-        name: "sudipto",
+        name: "sudi",
         
         
       },
