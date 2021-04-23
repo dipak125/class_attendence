@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
-import DatePicker from 'react-datepicker'
 import './App.css';
-import 'react-datepicker/dist/react-datepicker.css'
 
 
 const Home = () => {
-
-  const [selectedDate, setSelectedDate] = useState(null)
   const date = new Date();
   const dd = date.getDate();
   const mm = date.getMonth();
@@ -47,7 +43,7 @@ const Home = () => {
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>rajive</td>
+              <td>rajiv</td>
 
             </tr>
             <tr>
@@ -100,10 +96,7 @@ const Home = () => {
 
 
       </div>
-      <div class="foot">
-        <h2>about&nbsp;&nbsp;&nbsp;address   &nbsp;&nbsp;&nbsp;contect</h2>
-      </div>
-
+      
     </div>
 
   )
