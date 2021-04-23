@@ -96,7 +96,7 @@ const App=()=>{
     <>
      <BrowserRouter>
        <Nav/>
-       <Route exact path="/" component={()=> <Home students={state.students} present={state.present}/>}/>
+       <Route exact path="/home" component={()=> <Home students={state.students} present={state.present}/>}/>
         <Route  path="/students" component={()=><Students students={state.students}/>}/>
         <Route  path="/student/:id" component={(props)=> <Student student={state.students.find(s=>s.roll==props.match.params.id)}/>}/>
        <Route path="/attendence" component={()=><Attendence students={state.students}/>}/>
