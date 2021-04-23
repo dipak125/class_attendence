@@ -21,9 +21,9 @@ const Home=(props)=>{
              <div class="left">
                   <div>
                       <div class="top">
-                          <u><h1>Obout course:</h1></u>
+                          <u><h1>About course:</h1></u>
                             <h3>Include every Bootstrap JavaScript plugin and dependency with one of our two bundles. Both bootstrap.bundle.js and bootstrap.bundle.min.js include Popper for 
-                              our tooltips and popovers. For more information about what’s included in Bootstrap, please see our contents section.</h3>
+                              our tooltips and popovers. For more information about what’s included in Bootstrap, please see our contents section. Going to see the changes</h3>
                       </div>
                       <div class="bottom">
                           <u><h1>Obout topic:</h1></u>
