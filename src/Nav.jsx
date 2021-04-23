@@ -7,11 +7,11 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg navbar-hover bg-dark">
       <div className="container-fluid">
         <img src={ logo } alt="" className="logo"/>
-        <Link to="/home" className="navbar-brand">&nbsp;&nbsp;Yodafy</Link>
+        <Link to="/" className="navbar-brand">&nbsp;&nbsp;Yodafy</Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav navbar-right">
             <li className="nav-item">
-              <Link to="/home" className="nav-link active">&nbsp;&nbsp;&nbsp;Home</Link>
+              <Link to="/" className="nav-link active">&nbsp;&nbsp;&nbsp;Home</Link>
             </li>
             <li className="nav-item dropdown">
               <Link to="/members" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">&nbsp;Member's Area</Link>
