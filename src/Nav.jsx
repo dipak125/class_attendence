@@ -37,8 +37,6 @@ const Nav = () => {
                 <li><Link to="/feed" className="dropdown-item">&nbsp;Students Feedback</Link></li>
                 <li><hr className="dropdown-divider" /></li>
                 <li><Link to="/feed" className="dropdown-item">&nbsp;Teachers Feedback</Link></li>
-                <li><hr className="dropdown-divider" /></li>
-                
               </ul>
             </li>
           </ul>
