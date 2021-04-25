@@ -25,7 +25,7 @@ const Home = () => {
                               our tooltips and popovers. For more information about what’s included in Bootstrap, please see our contents section. Going to see the changes</h3>
           </div>
           <div class="bottom">
-            <u><h1>About topic:</h1></u>
+            <u><h1>Today's topic:</h1></u>
             <h3>Read and subscribe to The Official Bootstrap Blog.
             Join the official Slack room.
             Chat with fellow Bootstrappers in IRC. On the irc.freenode.net server, in the ##bootstrap channel.
@@ -35,15 +35,15 @@ const Home = () => {
         </div>
       </div>
       <div class="right">
-        <u><h3><center>List of the absent students</center></h3></u>
-
-        <h3><center>{day}/{m}/{y}</center></h3>
+        <u><h3><center>Defaulter's List</center></h3></u>
+        <h3><center>Date : {day}-0{m}-{y}</center></h3>
         <div><center>
           <DatePicker
-            placeholder="Enter date"
+
+            placeholder="Choose date"
             selected={selectedDate}
             onChange={date => setSelectedDate(date)}
-            dateFormat='dd/MM/yyyy'
+            dateFormat='dd-MM-yyyy'
             isClearable />
         </center></div>
         <table class="table">

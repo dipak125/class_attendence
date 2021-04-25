@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg navbar-hover bg-dark">
       <div className="container-fluid">
         <img src={logo} alt="" className="yodafy" />
-        <Link to="/home" className="navbar-brand">&nbsp;&nbsp;Yodafy</Link>
+        <Link to="/" className="navbar-brand">&nbsp;&nbsp;Yodafy</Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav navbar-right">
             <li className="nav-item">
@@ -35,6 +35,7 @@ const Nav = () => {
               <Link to="/members" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">&nbsp;Feedback</Link>
               <ul className="dropdown-menu">
                 <li><Link to="/feed" className="dropdown-item">&nbsp;Students Feedback</Link></li>
+                <li><hr className="dropdown-divider" /></li>
                 <li><Link to="/feed" className="dropdown-item">&nbsp;Teachers Feedback</Link></li>
                 <li><hr className="dropdown-divider" /></li>
                 
