@@ -30,14 +30,14 @@ const Teacher=()=>{
     <tr class="table-secondary">
       <th scope="row">3</th>
      
-      <td>Sid Roy</td>
+      <td>Rohit Das</td>
       <td>React js</td>
     </tr>
     <tr class="table-success">
       <th scope="row">4</th>
      
       <td>Shubhankar singh</td>
-      <td>React Native</td>
+      <td>Mongo Db</td>
     </tr>
     <tr class="table-danger">
       <th scope="row">5</th>
@@ -49,7 +49,7 @@ const Teacher=()=>{
       <th scope="row">6</th>
      
       <td>Shubhankar singh</td>
-      <td>React Native</td>
+      <td>Node.js</td>
     </tr>
     <tr class="table-info">
       <th scope="row">7</th>
@@ -73,7 +73,7 @@ const Teacher=()=>{
       <th scope="row">7</th>
     
       <td>Sid Roy</td>
-      <td>React js</td>
+      <td>Express Js</td>
     </tr>
     <tr class="table-light">
       <th scope="row">8</th>
