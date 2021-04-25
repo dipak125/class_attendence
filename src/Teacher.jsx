@@ -67,7 +67,7 @@ const Teacher=()=>{
       <th scope="row">9</th>
       
       <td>Sid Roy</td>
-      <td>React js</td>
+      <td>React Native</td>
     </tr>
     <tr class="table-info">
       <th scope="row">7</th>

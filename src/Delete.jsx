@@ -3,6 +3,7 @@ import {BrowserRouter,Route,Link} from "react-router-dom";
 import Koala from "./img/Koala.jpg";
 import "./Details.css";
 
+
 const Delete=(props)=>{
     const{del,student}=props;
     console.log(student.name);
@@ -19,7 +20,7 @@ const Delete=(props)=>{
       <img class="card-img-top" src={Koala} alt="Card image"></img>
       <div class="card-body">
         <h4 class="card-text">Name: {student.name}</h4>
-        <h4 class="card-texte">Email:</h4>
+        <h4 class="card-texte">Email:dgope@gmail.com</h4>
         <h4 class="card-text">Course:</h4>
         <h4 class="card-text">Sure you want to delete</h4>
         <button class="btn btn-outline-danger">Confirm</button>

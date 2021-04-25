@@ -57,7 +57,7 @@ const App=()=>{
       },
       {
         roll:8,
-        name: "tapash",
+        name: "tapash mahato",
         
       },
       {
