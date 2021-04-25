@@ -2,11 +2,9 @@ import React from "react";
 
 const Contact = () => {
     return (
-       
-            <div className="cont">
-                <u><h1>Contact Us</h1></u>
-
-                <form class="box" action="#" method="post">
+       <div className="cont">
+           <h1>Contact Us:</h1>
+           <form class="box" action="#">
 
 
 
@@ -20,7 +18,8 @@ const Contact = () => {
 
                 </form>
 
-            </div>
+       </div>
+            
         
 
     )
