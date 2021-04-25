@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-hover bg-dark">
       <div className="container-fluid">
-        <img src={logo} alt="" className="yodafy" />
+        <Link to="/" ><img src={logo} alt="" className="yodafy" /></Link>
         <Link to="/" className="navbar-brand">&nbsp;&nbsp;Yodafy</Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav navbar-right">
@@ -16,10 +16,11 @@ const Nav = () => {
             <li className="nav-item dropdown">
               <Link to="/members" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">&nbsp;Member's Area</Link>
               <ul className="dropdown-menu">
-                <li><Link to="/students" className="dropdown-item">&nbsp;Students Details</Link></li>
-                <li><Link to="/add" className="dropdown-item">&nbsp;AddStudent</Link></li>
+                <li><Link to="/students" className="dropdown-item">&nbsp;Student's Corner</Link></li>
+                <li><Link to="/add" className="dropdown-item">&nbsp;Add New Student</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><Link to="/teacher" className="dropdown-item">&nbsp;Teachers</Link></li>
+                <li><Link to="/teacher" className="dropdown-item">&nbsp;Teacher's Corner</Link></li>
+                <li><Link to="/attend" className="dropdown-item">&nbsp;Students Attendence</Link></li>
               </ul>
             </li>
             <li className="nav-item">
@@ -27,9 +28,6 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link to="/contact" className="nav-link">Contact Us</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/attend" className="nav-link">Attendence</Link>
             </li>
             <li className="nav-item dropdown">
               <Link to="/members" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">&nbsp;Feedback</Link>
