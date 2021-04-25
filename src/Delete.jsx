@@ -22,7 +22,7 @@ const Delete=(props)=>{
         <h4 class="card-text">Name: {student.name}</h4>
         <h4 class="card-texte">Email:dgope@gmail.com</h4>
         <h4 class="card-text">Course:</h4>
-        <h4 class="card-text">Sure you want to delete</h4>
+        <h5 class="card-text">Sure you want to delete</h5>
         <button class="btn btn-outline-danger">Confirm</button>
       </div>
     </div>
