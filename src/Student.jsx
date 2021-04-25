@@ -13,7 +13,7 @@ const Student=(props)=>{
       <div class="card">
         <img class="card-img-top" src={Koala} alt="Card image"></img>
         <div class="card-body">
-        <h4 class="card-text">Roll no: {student.roll}</h4>
+        <h4 class="card-text">Roll No: {student.roll}</h4>
           <h4 class="card-text">Name: {student.name}</h4>
           <h4 class="card-texte">Email:</h4>
           <h4 class="card-text">Course:</h4>

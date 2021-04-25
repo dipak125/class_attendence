@@ -35,7 +35,7 @@ const Home = () => {
         </div>
       </div>
       <div class="right">
-        <u><h3><center>List of the absent student</center></h3></u>
+        <u><h3><center>List of the absent students</center></h3></u>
 
         <h3><center>{day}/{m}/{y}</center></h3>
         <div><center>

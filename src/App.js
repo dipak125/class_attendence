@@ -32,7 +32,7 @@ const App=()=>{
       },
       {
         roll:3,
-        name: "dipak",
+        name: "dipak gope",
         
       },
       {
@@ -57,12 +57,12 @@ const App=()=>{
       },
       {
         roll:8,
-        name: "tapash",
+        name: "tapash mahato",
         
       },
       {
         roll:6,
-        name: "mrinal",
+        name: "mrinal singh",
         
       },
       {
